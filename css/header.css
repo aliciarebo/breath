@@ -12,7 +12,7 @@
 .logo .logotipo {
   width: 173px;
   height: 65.79px;
-  animation: breathing 5s ease-out infinite normal;
+  animation: breathing 3s ease-out infinite normal;
 }
 
 .logo .isotipo {
@@ -75,7 +75,7 @@
     display: block;
     width: 22px;
     height: 47px;
-    animation: breathing 5s ease-out infinite normal;
+    animation: breathing 3s ease-out infinite normal;
   }
   .menu {
     display: none;
