@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--blue);
+  flex-shrink: 0;
+}
+
+.links {
+  display: flex;
+  gap: 100px;
+}
+
+.links a {
+  font-family: "Mukta Vaani";
+  font-size: 15px;
+  color: var(--pure-white);
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 24px;
+}
+
+.socialMedia img {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

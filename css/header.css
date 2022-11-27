@@ -1,0 +1,160 @@
+.navbar {
+  display: flex;
+  padding-left: 96px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 96px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: var(--white);
+}
+
+.logo .logotipo {
+  width: 173px;
+  height: 65.79px;
+}
+
+.logo .isotipo {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 72px;
+}
+
+.menu a {
+  font-family: "Mukta Vaani";
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: var(--blue);
+}
+
+.userArea {
+  display: flex;
+  gap: 32px;
+}
+
+.userArea a {
+  text-decoration: none;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .userArea {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .menu {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 664px) {
+  .logo .logotipo {
+    display: none;
+  }
+
+  .logo .isotipo {
+    display: block;
+    width: 22px;
+    height: 47px;
+  }
+  .menu {
+    display: none;
+  }
+
+  .navbar .icon {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 58px;
+    right: 50px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .navbar .logo {
+    margin-right: auto;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 105px;
+  height: 44px;
+  border: none;
+  border-radius: 36px;
+  background: var(--orange);
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25),
+    4px 6px 10px rgba(75, 75, 75, 0.45),
+    inset 2px 1px 3px rgba(241, 241, 241, 0.65),
+    inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+  font-family: "Mukta Vaani";
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white);
+}
+
+.register:hover {
+  background: var(--white);
+  border-bottom: 4px solid #f87217;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25),
+    4px 6px 10px rgba(75, 75, 75, 0.45),
+    inset 2px 1px 3px rgba(241, 241, 241, 0.65),
+    inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+  color: var(--orange);
+}
+
+.entrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 105px;
+  height: 44px;
+  background: var(--white);
+  border: none;
+  border-bottom: 4px solid #2455c6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -2px -5px 5px rgba(253, 252, 252, 0.5),
+    inset -8px -8px 33px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  font-size: 15px;
+  color: var(--blue);
+  font-family: "Mukta Vaani";
+  font-weight: 400;
+}
+
+.entrar:hover {
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -2px -5px 5px rgba(253, 252, 252, 0.5),
+    inset -13px -22px 88px rgba(0, 0, 0, 0.25),
+    inset 3px 4px 16px rgba(0, 0, 0, 0.5);
+  color: var(--white);
+}

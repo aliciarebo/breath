@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo" class="logotipo">
+            <img src="img/isotipo.png" alt="Isotipo" class="isotipo">
+        </div>
+        <div class="menu">
+            <a href="#Terapias">Terapias</a>
+            <a href="#Pago">Plan de pago</a>
+            <a href="#SobreNosotros">Sobre Nosotros</a>
+        </div>
+        <div class="userArea">
+
+            <a href="#SingUp" class="entrar">Entrar</a>
+            <a href="#Register" class="register">Regístrate</a>
+        </div>
+        <img src="img/burguer.png" class="icon" />
+    </div>
+    <div class="container">
+        <form action="/">
+            <div class="title">
+                <h4>Iniciar Sesión</h4>
+            </div>
+            <div class="field">
+                <div>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div>
+                    <input type="password" placeholder="Contraseña">
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="login">
+                    <input type="submit" value="Entrar">
+                </div>
+                <div class="regist">
+                    <input type="submit" value="Registrar">
+                </div>
+            </div>
+        </form>
+    </div>
+    <img src="img/background.png" alt="background" class="back">
+    <div class="footer">
+        <div class="links">
+            <a href="#Home">Home</a>
+            <a href="#AboutUs">Sobre Nosotros</a>
+            <a href="#Contact">Contacto</a>
+            <a href="#FAQ">FAQ</a>
+            <a href="#Privacity">Política de Privacidad</a>
+        </div>
+        <div class="socialMedia">
+            <img src="img/mail.png" alt="Mail">
+            <img src="img/facebook.png" alt="Facebook">
+            <img src="img/twitter.png" alt="Twitter">
+            <img src="img/instagram.png" alt="Instagram">
+        </div>
+    </div>
+</body>
+<script>
+    const toogleButton = document.querySelector('.navbar .icon')
+
+    toogleButton.addEventListener('click', () => {
+        document.querySelector('.navbar .menu').classList.toggle('active');
+    })
+</script>
+
+</html>

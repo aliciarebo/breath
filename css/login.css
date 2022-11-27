@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+}
+
+.back {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  .back {
+    left: 0;
+    top: 270px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgba(43, 101, 236, 0.4) -74.44%,
+    rgba(189, 207, 249, 0.1) 114.44%
+  );
+  box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 59px 76px;
+  gap: 43px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+h4 {
+  font-family: "Mukta Vaani";
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--blue);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.field input {
+  box-sizing: border-box;
+  background: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.login input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 105px;
+  height: 44px;
+  background: var(--white);
+  border: none;
+  border-bottom: 4px solid #2455c6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    -2px -5px 5px rgba(253, 252, 252, 0.5),
+    inset -8px -8px 33px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  font-size: 15px;
+  color: var(--blue);
+  font-family: "Mukta Vaani";
+  font-weight: 400;
+}
+
+.regist input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 105px;
+  height: 44px;
+  border: none;
+  border-radius: 36px;
+  background: var(--orange);
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25),
+    4px 6px 10px rgba(75, 75, 75, 0.45),
+    inset 2px 1px 3px rgba(241, 241, 241, 0.65),
+    inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+  font-family: "Mukta Vaani";
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white);
+}
