@@ -1,0 +1,276 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 88px;
+}
+
+.main__container-banner {
+  display: flex;
+  background-color: var(--light-blue);
+  justify-content: space-around;
+  gap: 32px;
+  padding: 24px 88px;
+}
+
+.main__container-experts {
+  display: flex;
+  justify-content: flex-end;
+  background: url(/img/nuestros-profesionales.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left bottom;
+  padding: 112px 88px;
+}
+
+.main__container-howitworks {
+  background-color: var(--white);
+  padding: 48px 88px;
+}
+
+.faq__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.faq__content:last-of-type {
+  margin-bottom: 80px;
+}
+
+.faq__title {
+  font-family: "Montserrat";
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.faq__text {
+  font-family: "Mukta Vaani";
+  font-size: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+.faq__link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.howitworks__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.howitworks__title {
+  font-family: "Mukta Vaani";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--blue);
+  margin-bottom: 24px;
+}
+
+.howitworks__tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.howitworks__ellise {
+  font-family: "Mukta Vaani";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-blue);
+  height: 86px;
+  width: 86px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 1px 1px 12px rgba(0, 0, 0, 0.25);
+  margin-bottom: 24px;
+}
+
+.howitworks__text {
+  font-family: "Mukta Vaani";
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--blue);
+  width: 65%;
+}
+
+.experts__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experts__list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 42px;
+  margin-bottom: 88px;
+}
+
+.experts__list--col {
+  width: 50%;
+}
+
+.experts__text {
+  font-family: "Mukta Vaani";
+  font-size: 16px;
+  text-align: left;
+  color: var(--blue);
+}
+
+.banner__tile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+
+.banner__img {
+  max-width: 100%;
+}
+
+.banner__title {
+  font-family: "Montserrat";
+  font-size: 20px;
+  text-align: left;
+}
+
+.banner__subtitle {
+  font-family: "Montserrat";
+  font-size: 15px;
+  text-align: left;
+}
+
+.banner__text {
+  font-family: "Mukta Vaani";
+  font-size: 12px;
+  text-align: left;
+}
+
+.title-main {
+  font-family: "All Round Gothic";
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--blue);
+}
+
+.title-sub {
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--blue);
+  margin-top: 24px;
+}
+
+.text-normal {
+  font-family: "Mukta Vaani";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.button-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 266px;
+  height: 60px;
+  border: none;
+  border-radius: 36px;
+  background: var(--orange);
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25),
+    4px 6px 10px rgba(75, 75, 75, 0.45),
+    inset 2px 1px 3px rgba(241, 241, 241, 0.65),
+    inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+  font-family: "Mukta Vaani";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-cta:hover {
+  background: var(--white);
+  border-bottom: 4px solid #f87217;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25),
+    4px 6px 10px rgba(75, 75, 75, 0.45),
+    inset 2px 1px 3px rgba(241, 241, 241, 0.65),
+    inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+  color: var(--orange);
+}
+
+.img-main {
+  max-width: 100%;
+  margin: 24px auto;
+}
+
+@media only screen and (max-width: 664px) {
+  .main__container {
+    padding: 88px 16px;
+  }
+
+  .main__container-banner {
+    flex-direction: column;
+    padding: 24px 16px;
+  }
+
+  .main__container-experts {
+    padding: 112px 16px;
+  }
+
+  .main__container-howitworks {
+    padding: 112px 16px;
+  }
+
+  .faq__text {
+    width: 100%;
+  }
+
+  .howitworks__container {
+    flex-direction: column;
+  }
+
+  .howitworks__text {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .experts__text {
+    color: var(--black);
+  }
+
+  .banner__tile {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
