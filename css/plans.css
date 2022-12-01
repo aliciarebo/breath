@@ -1,0 +1,129 @@
+.main_plans{
+    margin: auto;
+    height: auto;
+    padding: 50px 0px;
+} 
+
+h1{
+    font-family: "All Round Gothic";
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--blue);
+}
+
+.plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 67px;
+
+    width: auto;
+    height: auto;
+    margin: 30px 0px;
+}
+
+.plans div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 8px;
+
+    width: 352px;
+    height: 485px;
+
+    background: #00A7EF;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25), 4px 6px 10px rgba(75, 75, 75, 0.45), inset 2px 1px 3px rgba(241, 241, 241, 0.65), inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+
+    font-family: "Mukta Vaani";
+    font-size: 24px;
+    font-weight: 400;
+    color: #F9F9F9;
+}
+
+.plan_title{
+    font-family: "Mukta Vaani";
+    font-size: 36px;
+    font-weight: 400;
+    color: #F9F9F9;
+    margin: 0px 0px -20px 0px;
+}
+
+.plan_price{
+    font-family: "Mukta Vaani";
+    font-size: 32px;
+    font-weight: 400;
+    color: black;
+}
+
+.plan_detail{
+    font-weight: 300;
+}
+
+.plan_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 105px;
+    height: 44px;
+    background: var(--white);
+    border: none;
+    border-bottom: 4px solid #2455c6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset -8px -8px 33px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    font-size: 15px;
+    color: var(--blue);
+    font-family: "Mukta Vaani";
+    font-weight: 400;
+}
+
+.plan_button:hover{
+    background: var(--blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset -13px -22px 88px rgba(0, 0, 0, 0.25),
+      inset 3px 4px 16px rgba(0, 0, 0, 0.5);
+    color: var(--white);
+}
+
+.plan_button_var{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 105px;
+    height: 44px;
+    border: none;
+    border-radius: 36px;
+    background: var(--orange);
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25),
+      4px 6px 10px rgba(75, 75, 75, 0.45),
+      inset 2px 1px 3px rgba(241, 241, 241, 0.65),
+      inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+    font-family: "Mukta Vaani";
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--white);
+}
+
+.plan_button_var:hover{
+    background: var(--white);
+    border-bottom: 4px solid #f87217;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.25),
+      4px 6px 10px rgba(75, 75, 75, 0.45),
+      inset 2px 1px 3px rgba(241, 241, 241, 0.65),
+      inset 0px -6px 21px rgba(0, 0, 0, 0.25);
+    color: var(--orange);
+}
+
+@media only screen and (max-width: 1200px) {
+    .plans {
+      flex-direction: column;
+    }
+  }
